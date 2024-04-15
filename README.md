@@ -4,7 +4,7 @@ I achieved a 200-millisecond delay in streaming by comparing several live stream
 
 # Youtube video
 
-[![Watch the video](/thumbnail.png)]([https://www.youtube.com/watch?v=MPbWI9NfuoY](https://www.youtube.com/watch?v=rxtcyxV32nc))
+[![Watch the video](/thumbnail.png)](https://www.youtube.com/watch?v=rxtcyxV32nc)
 
 ## Native UDP Stream
 
