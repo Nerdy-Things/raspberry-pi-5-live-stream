@@ -63,6 +63,12 @@ ffplay udp://RASPBERRY_PI_IP_HERE:5555 -fflags nobuffer -flags low_delay -framed
 
 ### MediaMTX Config (see video for details)
 
+* Make sure that you have ffmpeg: *
+
+```bash
+sudo apt-get install ffmpeg
+```
+
 ```bash
   cam1:
     runOnInit: bash -c 'rpicam-vid -t 0 --camera 0 --nopreview --codec yuv420 --width 1280 --height 720 --inline --listen -o - | ffmpeg -f rawvideo -pix_fmt yuv420p -s:v 1280x720 -i /dev/stdin -c:v libx264 -preset ultrafast -tune zerolatency -f rtsp rtsp://localhost:$RTSP_PORT/$MTX_PATH'
