@@ -63,7 +63,7 @@ ffplay udp://RASPBERRY_PI_IP_HERE:5555 -fflags nobuffer -flags low_delay -framed
 
 ### MediaMTX Config (see video for details)
 
-* Make sure that you have ffmpeg: *
+__Make sure that you have ffmpeg:__
 
 ```bash
 sudo apt-get install ffmpeg
