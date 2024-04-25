@@ -81,7 +81,7 @@ sudo apt-get install ffmpeg
 vlc rtsp://RASPBERRY_PI_IP_HERE:8554/cam1
 ```
 
-### RTSP Player command
+### WebRTC Player command
 
 http://RASPBERRY_PI_IP_HERE:8889/cam1
 
